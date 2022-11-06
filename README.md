@@ -15,7 +15,7 @@
 11. Make sure that you fully understand the sense and context of the paragraph/sentence.
 12. Optionally you can use an external translation tool.
 13. Using above points, try to come up with a few sentences. "Would it be understandable for your friend?"
-14. You may want to consult something with the translation group, use Discord.
+14. You may want to consult something with the translation group, [use Discord](https://discord.gg/3faJmGKhta).
 15. If you're not sure, you can use *Save as Suggestion*.
 16. You may want to manually check the correctness of reStructuredText syntax of your translation. You can use [*Online Sphinx editor*](https://livesphinx.herokuapp.com/).
 
