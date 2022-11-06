@@ -49,3 +49,5 @@
 * [sphinx-intl](https://www.sphinx-doc.org/en/master/usage/advanced/intl.html#translating-with-sphinx-intl) for updating existing translations with new source strings
 * [Weblate's continuous localization](https://docs.weblate.org/en/latest/admin/continuous.html) – Transifex alternative
 * [MyST](https://myst-parser.readthedocs.io/en/latest/) – reStructuredText alternative
+* [docsbuild-scripts](https://github.com/python/docsbuild-scripts) – where the documentation is built for multiple versions and languages for docs.python.org
+* [docspush-transifex](https://github.com/rffontenelle/docspush-transifex) – where the source strings updates are pushed to Transifex
