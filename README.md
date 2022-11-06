@@ -5,7 +5,7 @@
 4. If it's using Transifex, [sign up to Transifex](https://www.transifex.com/signup/).
 5. Request to join [python-doc organization](https://www.transifex.com/python-doc/) on Transifex.
 
-=== Translating ===
+### Translating
 6. Select a resource you want to start translating.
 7. Locate a resource and a string in translating tool.
 7. Look for the context of the paragraph/sentence to translate in rendered (built) docs.
@@ -15,32 +15,37 @@
 11. Make sure that you fully understand the sense and context of the paragraph/sentence.
 12. Optionally you can use an external translation tool.
 11. Using above points, try to come up with a few sentences, that your work acquitance would understand.
+13. You may want to manually check the correctness of reStructuredText syntax of your translation. You can use [*Online Sphinx editor*](https://livesphinx.herokuapp.com/).
 
-=== Preview nightly build (applicable to languages that uses it in their CIs) ===
+### Preview nightly build (applicable to languages that uses it in their CIs)
 11. Open [*Actions* tab in the GitHub repository](https://github.com/python/python-docs-pl/actions/).
 12. Look for most recent documentation build there.
 13. If the build fails, read through the logs and try to locate and resolve the cause.
 13. If the build succeeds, from *Artifacts* section download the documentation in desired version and format.
 
-=== Building the documentation locally ===
+### Building the documentation locally
 1. Clone [CPython repository](https://github.com/python/cpython).
 2. Enter `Doc` directory.
 3. Call `make venv`.
 4. Activate the venv: `.venv/bin/activate`.
 5. Call `make html`.
+6. The generated files will be placed in the `_build/html` directory.
 
-=== Building the translation locally ===
+### Building the translation locally
 1. Clone your language translation repository.
 2. Create directories `locale/xx` in `cpython/Doc`, where `xx` is your language shortcut.
 3. Create a symlink in the CPython repository pointing to freshly cloned translation. `ln -s cpython/Doc/locales/xx/LC_MESSAGES python-docs-xx`
 4. Call `-e SPHINXOPTS="-D language='xx'" html` in `cpython/Doc` repository.
+5. The generated files will be placed in the `_build/html` directory.
 
-=== Fetching the translation from Transifex locally ===
+### Fetching the translation from Transifex locally
 1. Go to Transifex user settings > [*API token*](https://www.transifex.com/user/settings/api/).
 2. Generate a new token.
 3. Set it as a TX_TOKEN environment variable.
 4. In the language repository call `python manage_translation.py fetch`.
 
-=== Further reading ===
+### Further reading/tools
 * [poutils](https://github.com/afpy/poutils) for PO-file related tasks
+* [sphinx-intl](https://www.sphinx-doc.org/en/master/usage/advanced/intl.html#translating-with-sphinx-intl) for updating existing translations with new source strings
 * [Weblate's continuous localization](https://docs.weblate.org/en/latest/admin/continuous.html) – Transifex alternative
+* [MyST](https://myst-parser.readthedocs.io/en/latest/) – reStructuredText alternative
