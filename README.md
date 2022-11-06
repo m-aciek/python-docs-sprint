@@ -6,7 +6,7 @@
 5. Request to join a language team in [python-doc organization](https://www.transifex.com/python-doc/) on Transifex.
 
 ### Translating
-6. Select a resource you want to start translating.
+1. Select a resource you want to start translating.
 7. Locate a resource and a string in translating tool.
 7. Look for the context of the paragraph/sentence to translate in rendered (built) docs.
 8. Look for glossary terms underlined in a source string.
@@ -14,14 +14,16 @@
 10. Look for suggestions, and use it to base the new translation on one of them.
 11. Make sure that you fully understand the sense and context of the paragraph/sentence.
 12. Optionally you can use an external translation tool.
-11. Using above points, try to come up with a few sentences, that your work acquitance would understand.
-13. You may want to manually check the correctness of reStructuredText syntax of your translation. You can use [*Online Sphinx editor*](https://livesphinx.herokuapp.com/).
+13. Using above points, try to come up with a few sentences. "Would it be understandable for your friend?"
+14. You may want to consult something with the translation group, use Discord.
+15. If you're not sure, you can use *Save as Suggestion*.
+16. You may want to manually check the correctness of reStructuredText syntax of your translation. You can use [*Online Sphinx editor*](https://livesphinx.herokuapp.com/).
 
 ### Preview nightly build (applicable to languages that uses it in their CIs)
-11. Open [*Actions* tab in the GitHub repository](https://github.com/python/python-docs-pl/actions/).
-12. Look for most recent documentation build there.
-13. If the build fails, read through the logs and try to locate and resolve the cause.
-13. If the build succeeds, from *Artifacts* section download the documentation in desired version and format.
+1. Open [*Actions* tab in the GitHub repository](https://github.com/python/python-docs-pl/actions/).
+2. Look for most recent documentation build there.
+3. If the build fails, read through the logs and try to locate and resolve the cause.
+4. If the build succeeds, from *Artifacts* section download the documentation in desired version and format.
 
 ### Building the documentation locally
 1. Clone [CPython repository](https://github.com/python/cpython).
