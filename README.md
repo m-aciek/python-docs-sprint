@@ -2,7 +2,7 @@
    [*Translating*](https://devguide.python.org/documentation/translating/).
 2. If it's missing there, [start a new translation](https://devguide.python.org/documentation/translating/#starting-a-new-translation).
 3. If it's not using Transifex, [download Poedit](https://poedit.net/download).
-4. If it's using Transifex, [sign up to Transifex](https://www.transifex.com/signup/).
+4. If it's using Transifex, [sign up to Transifex](https://app.transifex.com/signup/open-source/).
 5. Request to join a language team in [python-doc organization](https://www.transifex.com/python-doc/) on Transifex.
 
 ### Translating
