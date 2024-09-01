@@ -53,3 +53,6 @@
 * [MyST](https://myst-parser.readthedocs.io/en/latest/) – reStructuredText alternative
 * [docsbuild-scripts](https://github.com/python/docsbuild-scripts) – where the documentation is built for multiple versions and languages for docs.python.org
 * [docspush-transifex](https://github.com/rffontenelle/docspush-transifex) – where the source strings updates are pushed to Transifex
+
+### Presentation from PyCon2024
+[Google Docs](https://docs.google.com/presentation/d/1kkpcpueDFAWP4Jf8l7mkxMKiLaxO8YL3OVcy8IndydQ/edit?usp=sharing)
